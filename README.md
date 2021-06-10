@@ -12,3 +12,5 @@
   ) ENGINE = Kafka('localhost:9092', 'testtopic', 'group1', 'JSONEachRow');
   ```
   Kafka was up with Docker Container
+  
+  Docker Compose file in root https://github.com/oas1s/clickhouse-kafka/blob/main/docker-compose.yml
