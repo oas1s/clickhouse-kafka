@@ -1,0 +1,12 @@
+clickhouse:
+  address: jdbc:clickhouse://localhost:8123
+  username: default
+  password: azat1504
+  db: jl_db
+  socketTimeout: 600000
+
+kafka:
+  bootstrapAddress: localhost:9092
+
+server:
+  port: 8080
